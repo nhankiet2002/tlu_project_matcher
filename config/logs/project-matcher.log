@@ -1,0 +1,169 @@
+2026-02-15 21:38:43.584 [ERROR] [main                  ] SpringApplication              - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Could not initialize Log4J2 logging from config/log4j2.xml
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66) ~[spring-boot-2.6.7.jar:2.6.7]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_482]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:339) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at tlu.project.matcher.Application.main(Application.java:28) ~[main/:?]
+Caused by: java.lang.IllegalStateException: Could not initialize Log4J2 logging from config/log4j2.xml
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:230) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:316) ~[spring-boot-2.6.7.jar:2.6.7]
+	... 18 more
+Caused by: java.io.FileNotFoundException: /Users/damkiet/Downloads/tlu/config/log4j2.xml (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_482]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_482]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_482]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_482]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[?:1.8.0_482]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[?:1.8.0_482]
+	at java.net.URL.openStream(URL.java:1093) ~[?:1.8.0_482]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.getConfigurationSource(Log4J2LoggingSystem.java:241) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.load(Log4J2LoggingSystem.java:236) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:221) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:316) ~[spring-boot-2.6.7.jar:2.6.7]
+	... 18 more
+2026-02-15 21:39:15.751 [ERROR] [main                  ] SpringApplication              - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Could not initialize Log4J2 logging from log4j2.xml
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66) ~[spring-boot-2.6.7.jar:2.6.7]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_482]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:339) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at tlu.project.matcher.Application.main(Application.java:28) ~[main/:?]
+Caused by: java.lang.IllegalStateException: Could not initialize Log4J2 logging from log4j2.xml
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:230) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:316) ~[spring-boot-2.6.7.jar:2.6.7]
+	... 18 more
+Caused by: java.io.FileNotFoundException: /Users/damkiet/Downloads/tlu/log4j2.xml (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_482]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_482]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_482]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_482]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[?:1.8.0_482]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[?:1.8.0_482]
+	at java.net.URL.openStream(URL.java:1093) ~[?:1.8.0_482]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.getConfigurationSource(Log4J2LoggingSystem.java:241) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.load(Log4J2LoggingSystem.java:236) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:221) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:316) ~[spring-boot-2.6.7.jar:2.6.7]
+	... 18 more
+2026-02-15 21:39:57.340 [ERROR] [main                  ] SpringApplication              - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Could not initialize Log4J2 logging from resources/log4j2.xml
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66) ~[spring-boot-2.6.7.jar:2.6.7]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_482]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:339) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at tlu.project.matcher.Application.main(Application.java:28) ~[main/:?]
+Caused by: java.lang.IllegalStateException: Could not initialize Log4J2 logging from resources/log4j2.xml
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:230) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:316) ~[spring-boot-2.6.7.jar:2.6.7]
+	... 18 more
+Caused by: java.io.FileNotFoundException: /Users/damkiet/Downloads/tlu/resources/log4j2.xml (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_482]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_482]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_482]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_482]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[?:1.8.0_482]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[?:1.8.0_482]
+	at java.net.URL.openStream(URL.java:1093) ~[?:1.8.0_482]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.getConfigurationSource(Log4J2LoggingSystem.java:241) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.load(Log4J2LoggingSystem.java:236) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:221) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.loadConfiguration(Log4J2LoggingSystem.java:193) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:169) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:316) ~[spring-boot-2.6.7.jar:2.6.7]
+	... 18 more
+2026-02-15 21:40:45.588 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-15 21:40:45.630 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+2026-02-15 21:40:45.972 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-02-15 21:40:45.978 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-02-15 21:40:45.979 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-15 21:40:45.979 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-02-15 21:40:45.979 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-02-15 21:40:46.039 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-02-15 21:40:46.039 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 917 ms
+2026-02-15 21:40:46.184 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-15 21:40:46.212 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-02-15 21:40:46.301 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-02-15 21:40:46.352 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-02-15 21:40:46.579 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-02-15 21:40:46.592 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-02-15 21:40:47.278 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-02-15 21:40:47.285 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-15 21:40:48.000 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-02-15 21:40:48.077 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e3cb58e, org.springframework.security.web.context.SecurityContextPersistenceFilter@2586e878, org.springframework.security.web.header.HeaderWriterFilter@3ef089ce, org.springframework.web.filter.CorsFilter@18f8e2e0, org.springframework.security.web.authentication.logout.LogoutFilter@16a499d1, tlu.project.matcher.config.JwtFilter@3de45b6c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@404dc999, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35d0749, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28d56028, org.springframework.security.web.session.SessionManagementFilter@408f70ab, org.springframework.security.web.access.ExceptionTranslationFilter@1786150f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e2f6a45]
+2026-02-15 21:40:48.186 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-02-15 21:40:48.216 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-15 21:40:48.235 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-02-15 21:40:48.236 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-02-15 21:40:48.246 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-02-15 21:40:48.262 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-02-15 21:41:08.886 [INFO ] [http-nio-8080-exec-2  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-15 21:41:08.886 [INFO ] [http-nio-8080-exec-2  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-02-15 21:41:08.887 [INFO ] [http-nio-8080-exec-2  ] DispatcherServlet              - Completed initialization in 1 ms
+2026-02-15 21:57:26.567 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-15 21:57:26.570 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-02-15 21:57:26.574 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,349 @@
+2026-01-29 06:24:58.532 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:24:58.613 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:24:59.102 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:24:59.110 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:24:59.110 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:24:59.111 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:24:59.111 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:24:59.326 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:24:59.326 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1496 ms
+2026-01-29 06:24:59.488 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:24:59.553 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:24:59.781 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:24:59.889 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:25:00.240 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:25:00.251 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:25:01.058 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:25:01.065 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:25:01.987 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:25:02.069 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66831b14, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b2114ce, org.springframework.security.web.header.HeaderWriterFilter@30b075b9, org.springframework.web.filter.CorsFilter@4f1ea463, org.springframework.security.web.authentication.logout.LogoutFilter@1483c738, tlu.project.matcher.config.JwtFilter@e638553, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a985388, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bea478e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a641f6, org.springframework.security.web.session.SessionManagementFilter@3b235623, org.springframework.security.web.access.ExceptionTranslationFilter@17d25e1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30b0f674]
+2026-01-29 06:25:02.250 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:25:02.288 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:25:02.307 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:25:02.308 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:25:02.323 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:25:02.348 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:25:53.211 [INFO ] [http-nio-8080-exec-1  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:25:53.211 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:25:53.211 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Completed initialization in 0 ms
+2026-01-29 06:29:42.609 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:29:42.612 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:29:42.614 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:30:53.787 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:30:53.833 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:30:54.113 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:30:54.118 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:30:54.118 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:30:54.119 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:30:54.119 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:30:54.269 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:30:54.269 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 968 ms
+2026-01-29 06:30:54.347 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:30:54.370 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:30:54.453 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:30:54.515 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:30:54.735 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:30:54.745 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:30:55.237 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:30:55.243 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:30:55.920 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:30:55.972 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77737e3e, org.springframework.security.web.context.SecurityContextPersistenceFilter@b21cbbf, org.springframework.security.web.header.HeaderWriterFilter@c0b10ae, org.springframework.web.filter.CorsFilter@42e32feb, org.springframework.security.web.authentication.logout.LogoutFilter@1a899fcd, tlu.project.matcher.config.JwtFilter@748fa354, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4250b0c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@186537ac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3652dd19, org.springframework.security.web.session.SessionManagementFilter@2226fd2b, org.springframework.security.web.access.ExceptionTranslationFilter@54a7d1b9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bc49d70]
+2026-01-29 06:30:56.098 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:30:56.127 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:30:56.137 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:30:56.138 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:30:56.148 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:30:56.166 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:30:58.902 [INFO ] [http-nio-8080-exec-1  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:30:58.902 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:30:58.903 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Completed initialization in 1 ms
+2026-01-29 06:31:39.012 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:31:39.014 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:31:39.015 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:33:03.013 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:33:03.054 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:33:03.302 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:33:03.306 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:33:03.306 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:33:03.306 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:33:03.306 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:33:03.425 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:33:03.425 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 813 ms
+2026-01-29 06:33:03.491 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:33:03.511 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:33:03.568 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:33:03.607 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:33:03.817 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:33:03.824 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:33:04.258 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:33:04.262 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:33:04.881 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:33:04.927 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c8ad6d7, org.springframework.security.web.context.SecurityContextPersistenceFilter@21ffc00e, org.springframework.security.web.header.HeaderWriterFilter@3b8b5b40, org.springframework.web.filter.CorsFilter@2d0778d0, org.springframework.security.web.authentication.logout.LogoutFilter@6f22c1f1, tlu.project.matcher.config.JwtFilter@1a06602f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45b08b17, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d70ba18, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33e8694b, org.springframework.security.web.session.SessionManagementFilter@443253a6, org.springframework.security.web.access.ExceptionTranslationFilter@71f056a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53fc870f]
+2026-01-29 06:33:05.018 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:33:05.046 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:33:05.057 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:33:05.057 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:33:05.065 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:33:05.081 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:33:07.737 [INFO ] [http-nio-8080-exec-1  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:33:07.737 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:33:07.737 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Completed initialization in 0 ms
+2026-01-29 06:33:23.067 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:33:23.068 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:33:23.069 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:33:39.371 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:33:39.410 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:33:39.638 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:33:39.642 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:33:39.642 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:33:39.643 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:33:39.643 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:33:39.756 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:33:39.756 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 770 ms
+2026-01-29 06:33:39.822 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:33:39.840 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:33:39.896 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:33:39.931 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:33:40.145 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:33:40.151 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:33:40.576 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:33:40.580 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:33:41.118 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:33:41.161 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b916cc2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a07e6ca, org.springframework.security.web.header.HeaderWriterFilter@71687d8f, org.springframework.web.filter.CorsFilter@7f5e9949, org.springframework.security.web.authentication.logout.LogoutFilter@4db16677, tlu.project.matcher.config.JwtFilter@c82ad22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6104691c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7adff6cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@323eecf8, org.springframework.security.web.session.SessionManagementFilter@58f97013, org.springframework.security.web.access.ExceptionTranslationFilter@7305cfb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d0778d0]
+2026-01-29 06:33:41.259 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:33:41.284 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:33:41.296 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:33:41.296 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:33:41.303 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:33:41.317 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:33:43.679 [INFO ] [http-nio-8080-exec-2  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:33:43.679 [INFO ] [http-nio-8080-exec-2  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:33:43.680 [INFO ] [http-nio-8080-exec-2  ] DispatcherServlet              - Completed initialization in 1 ms
+2026-01-29 06:34:33.285 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:34:33.286 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:34:33.288 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:34:36.300 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:34:36.340 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:34:36.578 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:34:36.582 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:34:36.582 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:34:36.582 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:34:36.582 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:34:36.702 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:34:36.702 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
+2026-01-29 06:34:36.768 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:34:36.787 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:34:36.843 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:34:36.881 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:34:37.102 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:34:37.109 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:34:37.589 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:34:37.593 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:34:38.219 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:34:38.274 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b916cc2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a07e6ca, org.springframework.security.web.header.HeaderWriterFilter@71687d8f, org.springframework.web.filter.CorsFilter@7f5e9949, org.springframework.security.web.authentication.logout.LogoutFilter@4db16677, tlu.project.matcher.config.JwtFilter@c82ad22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6104691c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7adff6cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@323eecf8, org.springframework.security.web.session.SessionManagementFilter@58f97013, org.springframework.security.web.access.ExceptionTranslationFilter@7305cfb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d0778d0]
+2026-01-29 06:34:38.386 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:34:38.419 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:34:38.432 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:34:38.433 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:34:38.442 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:34:38.458 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:34:42.691 [INFO ] [http-nio-8080-exec-2  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:34:42.691 [INFO ] [http-nio-8080-exec-2  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:34:42.692 [INFO ] [http-nio-8080-exec-2  ] DispatcherServlet              - Completed initialization in 1 ms
+2026-01-29 06:35:56.063 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:35:56.064 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:35:56.066 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:37:02.569 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:37:02.615 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:37:02.918 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:37:02.922 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:37:02.922 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:37:02.923 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:37:02.923 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:37:03.039 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:37:03.039 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 895 ms
+2026-01-29 06:37:03.112 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:37:03.136 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:37:03.222 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:37:03.283 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:37:03.516 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:37:03.525 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:37:04.049 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:37:04.054 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:37:04.682 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:37:04.739 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55da6bf, org.springframework.security.web.context.SecurityContextPersistenceFilter@6aff157e, org.springframework.security.web.header.HeaderWriterFilter@2b826482, org.springframework.web.filter.CorsFilter@3a0f5141, org.springframework.security.web.authentication.logout.LogoutFilter@589a82af, tlu.project.matcher.config.JwtFilter@34d0c331, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@106c73ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5352bc0e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46059b73, org.springframework.security.web.session.SessionManagementFilter@7e9d171c, org.springframework.security.web.access.ExceptionTranslationFilter@321302bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56afbace]
+2026-01-29 06:37:04.863 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:37:04.887 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:37:04.898 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:37:04.898 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:37:04.907 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:37:04.923 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:37:08.978 [INFO ] [http-nio-8080-exec-1  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:37:08.978 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:37:08.978 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Completed initialization in 0 ms
+2026-01-29 06:37:15.825 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:37:15.827 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:37:15.828 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:42:03.483 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:42:03.529 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:42:03.796 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:42:03.800 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:42:03.800 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:42:03.800 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:42:03.800 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:42:03.934 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:42:03.934 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 948 ms
+2026-01-29 06:42:04.006 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:42:04.026 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:42:04.089 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:42:04.131 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:42:04.365 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:42:04.372 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:42:04.891 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:42:04.897 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:42:05.527 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:42:05.579 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b916cc2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a07e6ca, org.springframework.security.web.header.HeaderWriterFilter@71687d8f, org.springframework.web.filter.CorsFilter@7f5e9949, org.springframework.security.web.authentication.logout.LogoutFilter@4db16677, tlu.project.matcher.config.JwtFilter@c82ad22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6104691c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7adff6cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@323eecf8, org.springframework.security.web.session.SessionManagementFilter@58f97013, org.springframework.security.web.access.ExceptionTranslationFilter@7305cfb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d0778d0]
+2026-01-29 06:42:05.682 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:42:05.711 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:42:05.722 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:42:05.723 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:42:05.731 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:42:05.747 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:42:08.581 [INFO ] [http-nio-8080-exec-3  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:42:08.581 [INFO ] [http-nio-8080-exec-3  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:42:08.582 [INFO ] [http-nio-8080-exec-3  ] DispatcherServlet              - Completed initialization in 1 ms
+2026-01-29 06:42:08.731 [WARN ] [http-nio-8080-exec-3  ] SqlExceptionHelper             - SQL Error: 1364, SQLState: HY000
+2026-01-29 06:42:08.732 [ERROR] [http-nio-8080-exec-3  ] SqlExceptionHelper             - Field 'id' doesn't have a default value
+2026-01-29 06:42:33.593 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:42:33.594 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:42:33.595 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:42:37.199 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:42:37.251 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:42:37.560 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:42:37.565 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:42:37.565 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:42:37.566 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:42:37.566 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:42:37.735 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:42:37.735 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1000 ms
+2026-01-29 06:42:37.837 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:42:37.865 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:42:37.957 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:42:38.033 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:42:38.363 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:42:38.372 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:42:39.019 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:42:39.025 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:42:39.790 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:42:39.849 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b916cc2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a07e6ca, org.springframework.security.web.header.HeaderWriterFilter@71687d8f, org.springframework.web.filter.CorsFilter@7f5e9949, org.springframework.security.web.authentication.logout.LogoutFilter@4db16677, tlu.project.matcher.config.JwtFilter@c82ad22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6104691c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7adff6cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@323eecf8, org.springframework.security.web.session.SessionManagementFilter@58f97013, org.springframework.security.web.access.ExceptionTranslationFilter@7305cfb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d0778d0]
+2026-01-29 06:42:39.977 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:42:40.008 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:42:40.020 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:42:40.020 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:42:40.030 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:42:40.048 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:42:43.203 [INFO ] [http-nio-8080-exec-1  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:42:43.203 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:42:43.204 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Completed initialization in 1 ms
+2026-01-29 06:42:43.338 [WARN ] [http-nio-8080-exec-1  ] SqlExceptionHelper             - SQL Error: 1364, SQLState: HY000
+2026-01-29 06:42:43.338 [ERROR] [http-nio-8080-exec-1  ] SqlExceptionHelper             - Field 'id' doesn't have a default value
+2026-01-29 06:43:24.482 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:43:24.483 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:43:24.484 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:44:04.606 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:44:04.655 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:44:04.928 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:44:04.933 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:44:04.933 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:44:04.933 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:44:04.933 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:44:05.051 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:44:05.051 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 930 ms
+2026-01-29 06:44:05.125 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:44:05.145 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:44:05.213 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:44:05.260 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:44:05.502 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:44:05.510 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:44:06.085 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:44:06.093 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:44:06.821 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:44:06.876 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@631678e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@61becbcf, org.springframework.security.web.header.HeaderWriterFilter@418d1c03, org.springframework.web.filter.CorsFilter@1344f7fe, org.springframework.security.web.authentication.logout.LogoutFilter@24cbf894, tlu.project.matcher.config.JwtFilter@83e635f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58f97013, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cb82b09, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64d53f0d, org.springframework.security.web.session.SessionManagementFilter@6723e6b3, org.springframework.security.web.access.ExceptionTranslationFilter@7c56c911, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cf3a7f9]
+2026-01-29 06:44:07.004 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:44:07.035 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:44:07.047 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:44:07.047 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:44:07.057 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:44:07.073 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:44:10.136 [INFO ] [http-nio-8080-exec-1  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:44:10.136 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:44:10.136 [INFO ] [http-nio-8080-exec-1  ] DispatcherServlet              - Completed initialization in 0 ms
+2026-01-29 06:44:10.235 [WARN ] [http-nio-8080-exec-1  ] SqlExceptionHelper             - SQL Error: 1364, SQLState: HY000
+2026-01-29 06:44:10.235 [ERROR] [http-nio-8080-exec-1  ] SqlExceptionHelper             - Field 'id' doesn't have a default value
+2026-01-29 06:45:35.521 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:45:35.522 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:45:35.523 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:45:45.010 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:45:45.048 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:45:45.275 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:45:45.279 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:45:45.279 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:45:45.279 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:45:45.279 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:45:45.384 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:45:45.384 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 759 ms
+2026-01-29 06:45:45.452 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:45:45.471 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:45:45.530 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:45:45.574 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:45:45.794 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:45:45.800 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:45:46.241 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:45:46.245 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:45:46.778 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:45:46.825 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@631678e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@61becbcf, org.springframework.security.web.header.HeaderWriterFilter@418d1c03, org.springframework.web.filter.CorsFilter@1344f7fe, org.springframework.security.web.authentication.logout.LogoutFilter@24cbf894, tlu.project.matcher.config.JwtFilter@83e635f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58f97013, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cb82b09, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64d53f0d, org.springframework.security.web.session.SessionManagementFilter@6723e6b3, org.springframework.security.web.access.ExceptionTranslationFilter@7c56c911, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cf3a7f9]
+2026-01-29 06:45:46.927 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:45:46.952 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:45:46.963 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:45:46.963 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:45:46.970 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:45:46.985 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:45:52.293 [INFO ] [http-nio-8080-exec-3  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:45:52.293 [INFO ] [http-nio-8080-exec-3  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:45:52.293 [INFO ] [http-nio-8080-exec-3  ] DispatcherServlet              - Completed initialization in 0 ms
+2026-01-29 06:45:52.403 [WARN ] [http-nio-8080-exec-3  ] SqlExceptionHelper             - SQL Error: 1364, SQLState: HY000
+2026-01-29 06:45:52.403 [ERROR] [http-nio-8080-exec-3  ] SqlExceptionHelper             - Field 'id' doesn't have a default value
+2026-01-29 06:47:12.756 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:47:12.757 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:47:12.759 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
+2026-01-29 06:47:45.591 [INFO ] [main                  ] epositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29 06:47:45.630 [INFO ] [main                  ] epositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 5 JPA repository interfaces.
+2026-01-29 06:47:45.861 [INFO ] [main                  ] TomcatWebServer                - Tomcat initialized with port(s): 8080 (http)
+2026-01-29 06:47:45.865 [INFO ] [main                  ] Http11NioProtocol              - The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2026-01-29 06:47:45.865 [INFO ] [main                  ] Http11NioProtocol              - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:47:45.866 [INFO ] [main                  ] StandardService                - Starting service [Tomcat]
+2026-01-29 06:47:45.866 [INFO ] [main                  ] StandardEngine                 - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2026-01-29 06:47:45.986 [INFO ] [main                  ] [/]                            - Initializing Spring embedded WebApplicationContext
+2026-01-29 06:47:45.986 [INFO ] [main                  ] letWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
+2026-01-29 06:47:46.050 [INFO ] [main                  ] LogHelper                      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-29 06:47:46.068 [INFO ] [main                  ] Version                        - HHH000412: Hibernate ORM core version 5.6.8.Final
+2026-01-29 06:47:46.126 [INFO ] [main                  ] Version                        - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-29 06:47:46.162 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Starting...
+2026-01-29 06:47:46.403 [INFO ] [main                  ] HikariDataSource               - HikariPool-1 - Start completed.
+2026-01-29 06:47:46.410 [INFO ] [main                  ] Dialect                        - HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2026-01-29 06:47:47.517 [INFO ] [main                  ] JtaPlatformInitiator           - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-29 06:47:47.521 [INFO ] [main                  ] tainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:47:48.075 [INFO ] [main                  ] edRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2026-01-29 06:47:48.121 [INFO ] [main                  ] DefaultSecurityFilterChain     - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ef04613, org.springframework.security.web.context.SecurityContextPersistenceFilter@72d0196d, org.springframework.security.web.header.HeaderWriterFilter@5b1420f9, org.springframework.web.filter.CorsFilter@2d3d4a54, org.springframework.security.web.authentication.logout.LogoutFilter@5d6d424d, tlu.project.matcher.config.JwtFilter@4f525e13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4067634b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@565a6af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@215c6ec0, org.springframework.security.web.session.SessionManagementFilter@76d828ff, org.springframework.security.web.access.ExceptionTranslationFilter@1e32037d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ee0cf64]
+2026-01-29 06:47:48.226 [WARN ] [main                  ] FreeMarkerAutoConfiguration    - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2026-01-29 06:47:48.253 [INFO ] [main                  ] Http11NioProtocol              - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-29 06:47:48.263 [INFO ] [main                  ] TomcatWebServer                - Tomcat started on port(s): 8080 (http) with context path ''
+2026-01-29 06:47:48.263 [INFO ] [main                  ] cumentationPluginsBootstrapper - Context refreshed
+2026-01-29 06:47:48.271 [INFO ] [main                  ] cumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2026-01-29 06:47:48.284 [INFO ] [main                  ] ApiListingReferenceScanner     - Scanning for api listing references
+2026-01-29 06:47:56.793 [INFO ] [http-nio-8080-exec-2  ] [/]                            - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 06:47:56.793 [INFO ] [http-nio-8080-exec-2  ] DispatcherServlet              - Initializing Servlet 'dispatcherServlet'
+2026-01-29 06:47:56.794 [INFO ] [http-nio-8080-exec-2  ] DispatcherServlet              - Completed initialization in 1 ms
+2026-01-29 06:51:34.315 [INFO ] [pplicationShutdownHook] tainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29 06:51:34.315 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown initiated...
+2026-01-29 06:51:34.315 [INFO ] [pplicationShutdownHook] HikariDataSource               - HikariPool-1 - Shutdown completed.
